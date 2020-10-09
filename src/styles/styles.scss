@@ -1,12 +1,14 @@
-@import './font.scss';
-@import './components/divider.scss';
-@import './components/videos.scss';
+@import "./font.scss";
+@import "./components/divider.scss";
+@import "./components/videos.scss";
+@import "./components/profile.scss";
+@import "./components/contactus.scss";
 body {
   background-color: #02030f;
 }
 
 * {
-  font-family: 'cour', 'Monaco';
+  font-family: "cour", "Monaco";
   padding: 0;
   margin: 0;
   color: white;

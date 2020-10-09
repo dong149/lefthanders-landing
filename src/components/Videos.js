@@ -17,8 +17,10 @@ const Videos = (props) => {
         videos.current.play();
       }}
     >
-      <div className="videos-title">{content.title}</div>
-      <div className="videos-since">{`since ${content.since}`}</div>
+      <div className="videos-text-wrap">
+        <div className="videos-title">{content.title}</div>
+        <div className="videos-since">{`since ${content.since}`}</div>
+      </div>
       <video
         className="videos-content"
         ref={videos}

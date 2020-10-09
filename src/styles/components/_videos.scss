@@ -2,7 +2,18 @@
   width: 80%;
   margin: 0 auto;
   margin-top: 20px;
+  .videos-text-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 14px;
+    .videos-title {
+    }
+    .videos-position {
+    }
+  }
   .videos-content {
     width: 100%;
+    margin-bottom: 10px;
   }
 }

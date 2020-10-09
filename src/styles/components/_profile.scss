@@ -1,0 +1,23 @@
+.profile {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    .profile-text-wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-size: 14px;
+        .profile-name {
+        }
+        .profile-position {
+        }
+    }
+
+    .profile-content {
+        width: 100%;
+        height: 168px;
+        overflow: hidden;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+}

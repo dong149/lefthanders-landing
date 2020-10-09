@@ -1,5 +1,7 @@
 import React from 'react';
+import ContactUs from './components/ContactUs';
 import Divider from './components/Divider';
+import Profile from './components/Profile';
 import Videos from './components/Videos';
 import './styles/styles.scss';
 function App() {
@@ -18,7 +20,11 @@ function App() {
         return <Videos content={data} key={i} />;
       })}
       <Divider title="members." />
+      {profileContents.map((data, i) => {
+        return <Profile content={data} key={i} />;
+      })}
       <Divider title="contact us." />
+      <ContactUs />
     </div>
   );
 }
@@ -36,6 +42,25 @@ const contents = [
     since: '2019.10',
     src: '/makkcha.mp4',
     type: 'video',
+    description:
+      '코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로,  ',
+  },
+];
+
+const profileContents = [
+  {
+    name: '류동훈',
+    position: 'CEO',
+    src: '/profile/seohyeon.jpeg',
+    type: 'image',
+    description:
+      '코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로,  ',
+  },
+  {
+    name: '류동훈',
+    position: 'CEO',
+    src: '/profile/seohyeon.jpeg',
+    type: 'image',
     description:
       '코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로, 코로나 19를 맞아 새롭게 개발하게 된 서비스로,  ',
   },

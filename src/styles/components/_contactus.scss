@@ -1,0 +1,16 @@
+.contactus {
+    margin-top: 15px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    .contactus-text-wrap {
+        .contactus-address {
+            font-size: 14px;
+        }
+        .contactus-email {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    }
+}
