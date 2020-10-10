@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { isEmpty } from '../functions';
 import '../styles/styles.scss';
 
 const Services = (props) => {
@@ -43,6 +44,15 @@ const Services = (props) => {
 
       <div className={hover ? 'description-hover' : 'description'}>
         {content.description}
+        {!isEmpty(content.link) && (
+          <span>
+            <br />
+            <br />
+            링크 : <a href={content.link}>{content.link}</a>
+            <br />
+            <br />
+          </span>
+        )}
       </div>
     </div>
   );
