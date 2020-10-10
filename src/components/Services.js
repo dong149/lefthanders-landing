@@ -31,13 +31,13 @@ const Services = (props) => {
         <video
           className="videos-content"
           ref={videos}
-          preload
+          // preload
           muted
           loop
           autoPlay
           playsinline
         >
-          <source src={content.src} />
+          <source type="video/mp4" src={content.src} />
           재생할 수 없습니다.
         </video>
       )}
