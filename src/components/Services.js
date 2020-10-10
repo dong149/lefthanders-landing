@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { isEmpty } from '../functions';
 import '../styles/styles.scss';
 
 const Services = (props) => {
