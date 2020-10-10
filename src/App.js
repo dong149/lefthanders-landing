@@ -17,11 +17,7 @@ function App() {
           setHover(false);
         }}
       >
-        <img
-          className="logo-title"
-          src="/lefthanders.png"
-          alt="왼손잡이들 로고"
-        />
+        <img className="logo-title" src="/main.png" alt="왼손잡이들 로고" />
         <span className="logo-since">since 2019</span>
         <div className={hover ? 'description-hover' : 'description'}>
           안녕하세요
