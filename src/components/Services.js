@@ -20,7 +20,7 @@ const Services = (props) => {
     >
       <div className="videos-text-wrap">
         <div className="videos-title">{content.title}</div>
-        <div className="videos-since">{`since ${content.since}`}</div>
+        <div className="videos-since">{`${content.since}`}</div>
       </div>
       {content.type === 'image' ? (
         <div

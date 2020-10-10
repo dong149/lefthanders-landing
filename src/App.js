@@ -65,7 +65,7 @@ function App() {
 const contents = [
   {
     title: 'deathnote.gg',
-    since: '2021',
+    since: 'coming 2021.01',
     src: '/deathnote_gg.png',
     type: 'image',
     description:
@@ -74,7 +74,7 @@ const contents = [
   },
   {
     title: '롤링페이퍼',
-    since: '2020.08',
+    since: 'since 2020.08',
     src: '/rollingpaper.mp4',
     type: 'video',
     description:
@@ -83,7 +83,7 @@ const contents = [
   },
   {
     title: '막차',
-    since: '2019.10',
+    since: 'since 2019.10',
     src: '/makkcha.mp4',
     type: 'video',
     description:
