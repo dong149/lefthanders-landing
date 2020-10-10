@@ -21,7 +21,10 @@ const Profile = (props) => {
         className="profile-content"
         style={{ backgroundImage: `url(${content.src})` }}
         alt={content.name}
-      />
+      ></div>
+      <div className={hover ? 'description-hover' : 'description'}>
+        {content.description}
+      </div>
     </div>
   );
 };
