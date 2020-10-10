@@ -36,6 +36,7 @@ const Services = (props) => {
           loop
           autoPlay
           playsinline
+          autobuffer
         >
           <source type="video/mp4" src={content.src} />
           재생할 수 없습니다.
