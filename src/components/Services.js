@@ -35,7 +35,7 @@ const Services = (props) => {
           muted
           loop
           autoPlay
-          playsinline
+          playsInline
           autobuffer
         >
           <source type="video/mp4" src={content.src} />
