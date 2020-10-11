@@ -5,17 +5,17 @@ import Profile from './components/Profile';
 import Services from './components/Services';
 import './styles/styles.scss';
 function App() {
-  const [hover, setHover] = useState(false);
+  // const [hover, setHover] = useState(false);
   return (
     <div className="home">
       <div
         className="logo"
-        onMouseEnter={() => {
-          setHover(true);
-        }}
-        onMouseLeave={() => {
-          setHover(false);
-        }}
+        // onMouseEnter={() => {
+        //   setHover(true);
+        // }}
+        // onMouseLeave={() => {
+        //   setHover(false);
+        // }}
       >
         <img className="logo-title" src="/main.png" alt="왼손잡이들 로고" />
         <span className="logo-since">since 2019</span>
