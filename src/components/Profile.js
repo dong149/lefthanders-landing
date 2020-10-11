@@ -34,6 +34,11 @@ const Profile = (props) => {
             <br />
           </span>
         )}
+        {/* {!isEmpty(content.sign) && (
+          <div className="sign">
+            <img className="sign-img" src={content.sign} alt={content.name} />
+          </div>
+        )} */}
       </div>
     </div>
   );
