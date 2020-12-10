@@ -58,7 +58,7 @@ const contents = [
     src: '/rollingpaper.mp4',
     type: 'video',
     description:
-      'User : 약 45만명\n\nType : 웹 서비스\n\nStatus : 베타 서비스\n\n어릴 적부터 간직해왔던 롤링페이퍼 온라인화의 꿈을 실현한 서비스입니다.\n\n롤링페이퍼는 현대 사회의 삭막함 속의 새로운 커뮤니케이션 도구로의 역할을 현재 수행중이고, 지속적으로 업데이트 중입니다.',
+      'User : 약 200만명 ( MAU 80만명 )\n\nType : 웹 서비스\n\nStatus : 베타 서비스\n\n어릴 적부터 간직해왔던 롤링페이퍼 온라인화의 꿈을 실현한 서비스입니다.\n\n롤링페이퍼는 현대 사회의 삭막함 속의 새로운 커뮤니케이션 도구로의 역할을 현재 수행중이고, 지속적으로 업데이트 중입니다.\n\n2020.12.10 Update',
     link: 'https://rollingpaper.site',
   },
   {
