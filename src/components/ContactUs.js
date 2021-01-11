@@ -28,8 +28,6 @@ const ContactUs = (props) => {
             사람들에게 좋은 서비스를 제공하는 것을 추구합니다.
             <br />
             <br />
-            서비스를 진정으로 사랑하는 기획자, 개발자, 디자이너 분들의 참여를
-            환영합니다.
             <div className="sign">
               <img className="sign-img" src="/류동훈.png" alt="류동훈 싸인" />
             </div>

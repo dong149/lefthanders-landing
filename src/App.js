@@ -58,7 +58,7 @@ const contents = [
     src: '/rollingpaper.mp4',
     type: 'video',
     description:
-      'User : 약 250만명 ( MAU 80만명 )\n\nType : 웹 서비스\n\n어릴 적부터 간직해왔던 롤링페이퍼 온라인화의 꿈을 실현한 서비스입니다.\n\n롤링페이퍼는 현대 사회의 삭막함 속의 새로운 커뮤니케이션 도구로의 역할을 현재 수행중이고, 지속적으로 업데이트 중입니다.\n\n2020.12.10 Update',
+      'User : 약 350만명\n\nType : 웹 서비스\n\n2020년 8월에 런칭하여, 꾸준히 많은 사용자들이 사랑해주고 있는 서비스입니다. 한국을 넘어, 글로벌하게 사용되고 있습니다. 앞으로도 많은 사랑과 관심 부탁드리겠습니다!\n\n2020.01.11 Update',
     link: 'https://rollingpaper.site',
   },
   {
@@ -70,15 +70,15 @@ const contents = [
       'User : 약 5만명\n\nType : 앱 서비스\n\n막차는 우리의 일상 속에서 빈번하게 등장하는 불편함입니다. \n그리고 그 불편함은 막차를 찾는 과정에서 존재하였습니다. \n\n빈번하게 존재하는 불편함이지만, 아직 제대로 해결되지 않은 이 문제를 저희만의 방식으로 풀어내고 싶었습니다.',
     link: 'https://makkcha.com',
   },
-  {
-    title: 'deathnote.gg',
-    since: 'coming 2021.01',
-    src: '/deathnote_gg.png',
-    type: 'image',
-    description:
-      'Type : 웹 서비스\n\nStatus : 프로토 타입\n\n현재 천천히 개발 진행중인 왼손잡이들의 새로운 야심작입니다. LOL을 굉장히 즐겨하는데, 그러던 와중 떠오른 아이디어로 프로토타입까지는 개발을 마친 상태입니다. \n\nLOL을 조금이라도 해보았던 사람은 정말 좋아할만한 서비스입니다.\n\n2021년 1월에 런칭을 목표로 하고 있습니다.',
-    link: '',
-  },
+  // {
+  //   title: 'deathnote.gg',
+  //   since: 'coming 2021.01',
+  //   src: '/deathnote_gg.png',
+  //   type: 'image',
+  //   description:
+  //     'Type : 웹 서비스\n\nStatus : 프로토 타입\n\n현재 천천히 개발 진행중인 왼손잡이들의 새로운 야심작입니다. LOL을 굉장히 즐겨하는데, 그러던 와중 떠오른 아이디어로 프로토타입까지는 개발을 마친 상태입니다. \n\nLOL을 조금이라도 해보았던 사람은 정말 좋아할만한 서비스입니다.\n\n2021년 1월에 런칭을 목표로 하고 있습니다.',
+  //   link: '',
+  // },
 ];
 
 const profileContents = [
